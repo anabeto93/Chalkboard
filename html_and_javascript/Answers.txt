@@ -1,0 +1,6 @@
+1. C
+
+2. Yes. The selected property is supposed to be checked.
+   <input type="checkbox" name="mycheckbox" value="1" checked onClick="check_function()" />
+
+3. 
