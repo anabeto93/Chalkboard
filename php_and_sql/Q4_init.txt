@@ -1,0 +1,5 @@
+insert into students (`first_name`,`last_name`,`class`,`course`,`score`) values ('Pauls', 'Richard', 'CM1',	'Maths',	19);
+insert into students (`first_name`,`last_name`,`class`,`course`,`score`) values ('Georges', 'Alain','CM2', 'Français','15');
+insert into students (`first_name`,`last_name`,`class`,`course`,`score`) values ('Moris', 'Sylvain','CM1', 'Français','16');
+insert into students (`first_name`,`last_name`,`class`,`course`,`score`) values ('Patrick', 'Patrice','CM1', 'Maths','14');
+insert into students (`first_name`,`last_name`,`class`,`course`,`score`) values ('Dupond', 'Francis','CM2', 'Maths','16');

@@ -8,7 +8,7 @@ def traverse_dir(directory):
     This is meant to traverse the directory while displaying the subdirectories and the files contained
     """
     print("Now traversing %s" % directory)
-    #lazy load the OS
+    # lazy load the OS
     import os
 
     for path, subdirs, files in os.walk(directory):

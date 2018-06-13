@@ -1,0 +1,29 @@
+1. Blank because it doesn't return any value
+
+2. The POST method passes the form data in the request body and also includes additional parameters from or about the client to the backend or server while the GET method encodes the form data into the action URL which get passed as query parameters.
+
+3. Answer is found in Q3.php file attached
+
+4. Inserted the values into the database found in Q4_init.txt
+   The query to view classname and the highest score is 
+
+   SELECT class, MAX(score) AS grade from students GROUP BY class, id ORDER BY score DESC;
+
+5. This can be broken down into 3 different tables with pivot tables as well
+   1. students table with fields (id,first_name,last_name,class_id) #belongs to one class
+   2. scores table with fields (id,mark,student_id,course_id)
+   3. course table with fields (id,name)
+   4. class table with fields (id,name) #can have many students
+   5. class_courses with fields (id,class_id,course_id) #many class can have multiple courses and vice versa
+   6. course_students with fields (id, course_id, student_id)
+
+6. a. == is the common equivalent operator in most programming languages, but SQL uses just one, =
+   The correct thing will therefore be 
+   SELECT DISTINCT `idValue`, `value` FROM `values` WHERE `idValue` = 1;
+
+   b. It is wrong in the sense of requesting to insert into the table with 3 parameters and yet supplying only two arguments
+   The correct query will thus be
+   INSERT INTO `values`(`idValue`, `value`, `date_update`) VALUES(1, ‘first month’,'some value obtained from Carbon::now()');
+
+   NB: the above ignore the fact that there are also missing terminator (semicolon)
+
