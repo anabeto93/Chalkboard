@@ -3,4 +3,8 @@
 2. Yes. The selected property is supposed to be checked.
    <input type="checkbox" name="mycheckbox" value="1" checked onClick="check_function()" />
 
-3. 
+3. Hi, I am a Square.
+   25
+
+4. The corrected file is attached here as corrected.html
+
